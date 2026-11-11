@@ -60,7 +60,7 @@ print(f"Using device: {device}")
 
 # Folders
 os.makedirs('saved_models_mlp', exist_ok=True)
-os.makedirs('figures_mlp', exist_ok=True)
+os.makedirs('figures', exist_ok=True)
 
 print("All dependencies loaded.")
 print("="*60)
