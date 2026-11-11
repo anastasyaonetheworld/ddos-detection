@@ -9,6 +9,8 @@
 | `simple_mlp.ipynb` | **Base MLP** (простая) | 4-слойный перцептрон, обучается отдельно на каждом датасете | KDD99 — 99.96%, CIC-DDoS2019 — ~95%, Edge-IIoTset — ~97%; ~0.1 мс на пример |
 | `hybrid_transfer_cnn.ipynb` | **Hybrid Transfer CNN** (сложная) | Лёгкая CNN + transfer learning (KDD → CIC-DDoS2019 → Edge-IIoTset), CBAM-attention, ~44k параметров | Edge-IIoTset — 99.86% (F1 99.78%), CIC-DDoS2019 — ~95%, KDD — ~88%; ~0.57 мс на пример |
 
+Для каждой модели есть и обычный Python-скрипт с тем же кодом: `simple_mlp.py` и `hybrid_transfer_cnn.py`. Запуск: `python simple_mlp.py`. Ячейки помечены `# %%`, поэтому в VS Code / PyCharm их можно запускать по частям.
+
 ## Датасеты
 
 В репозиторий не входят, скачиваются отдельно:
